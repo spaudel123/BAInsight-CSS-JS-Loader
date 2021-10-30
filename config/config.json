@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ba-insight-css-js-loader-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/baInsightCssJsLoader/BaInsightCssJsLoaderWebPart.js",
+          "manifest": "./src/webparts/baInsightCssJsLoader/BaInsightCssJsLoaderWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BaInsightCssJsLoaderWebPartStrings": "lib/webparts/baInsightCssJsLoader/loc/{locale}.js"
+  }
+}
